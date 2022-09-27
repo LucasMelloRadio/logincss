@@ -6,7 +6,7 @@ body {
 .main-login {
   width: 100vw;
   height: 100vh;
-  background: #340b65;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 }
 
 .left-login > h1 {
-  color: blue;
+  color: black;
   font-style: italic;
 
 }
@@ -42,13 +42,13 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 30px 35px;
-  background: black;
+  background: lightgray;
   border-radius: 20px;
-  box-shadow: 0px 10px 40px blue;
+  box-shadow: 0px 10px 40px grey;
 }
 
 .card-login > h1 {
-  color: blue;
+  color: black;
   font-weight: 800;
   margin: 05;
 }
@@ -71,20 +71,20 @@ body {
   background: lightblue;
   color: black;
   font-size: 12pt;
-  box-shadow: 0px 10px 40px blue;
+  box-shadow: 0px 10px 40px grey;
   outline: none;
   box-sizing: border-box;
 }
 
 
 .textfield > label {
-  color: grey;
+  color: black;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .textfield > input::placeholder {
-  color: grey;
-
+  color: black;
 }
 
 .btn-login {
@@ -97,14 +97,13 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 10px;
-  color: black;
-  background: lightgray;
+  color: white;
+  background: black;
   cursor: pointer;
   box-shadow: 0px 10px 40px -12px white;
 }
 
 .headind {
-
   text-align: right;
   margin-right: 15px;
   margin-left: 15px;
@@ -113,15 +112,8 @@ body {
   letter-spacing: 01px;
 }
 
-.indextxt {
-  color: white;
-}
-.produtostxt {
-  color: white;
-}
-.contatotxt {
-  color: white;
-}
-.entretxt {
-  color: white;
+.headind a {
+  text-decoration: none;
+  color: black;
+  text-align: right;
 }
